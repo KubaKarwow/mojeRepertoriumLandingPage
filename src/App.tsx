@@ -5,16 +5,6 @@ import logo from "./Black and white Circle Elegant Photographer Hand logo.png";
 function App() {
     const [showContactOverlay, setShowContactOverlay] = useState(false);
 
-    const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = '/Moje Repertorium Installer.exe';
-        link.download = 'Moje Repertorium Installer.exe';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-
-
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-cyan-50 to-blue-100">
             <div className="max-w-5xl mx-auto px-6 py-16">
