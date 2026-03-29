@@ -33,7 +33,7 @@ function App() {
                     </p>
 
                     <a
-                        href="https://drive.google.com/uc?export=download&id=1Ll1aTEgJbvDAhQFHGI2lRO0zrQAYGGIF"
+                        href="https://github.com/KubaKarwow/mojeRepertoriumLandingPage/releases/download/v.1.0.0/Moje.Repertorium.Installer.exe"
                         className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:cursor-pointer transition-all transform hover:scale-105 shadow-lg"
                     >
                         <Download size={20} />
@@ -169,10 +169,13 @@ function App() {
                         Pobierz teraz i dołącz do naszej rosnącej społeczności
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
-                        <button onClick={handleDownload} className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 hover:cursor-pointer transition-all transform hover:scale-105 shadow-lg">
-                            <Download size={20} />
-                            Pobierz teraz
-                        </button>
+                         <a
+                        href="https://github.com/KubaKarwow/mojeRepertoriumLandingPage/releases/download/v.1.0.0/Moje.Repertorium.Installer.exe"
+                        className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 hover:cursor-pointer transition-all transform hover:scale-105 shadow-lg"
+                        >
+                        <Download size={20} />
+                        Pobierz teraz
+                    </a>
                         <button
                             onClick={() => setShowContactOverlay(true)}
                             className="inline-flex items-center gap-2 bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transition-all  hover:cursor-pointer border border-blue-500"
