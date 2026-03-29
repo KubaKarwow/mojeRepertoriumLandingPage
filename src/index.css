@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Tu definiujesz swoje tokeny kolorów itd. */
+@theme {
+    --color-brand: #4f46e5;
+    --color-brand-light: #6366f1;
+    --color-brand-dark: #3730a3;
+    --color-accent: #ec4899;
+    --color-neutral: #1f2937;
+}
+
+/* Własna utilka na gradient tła */
+@utility bg-background {
+    background-image: linear-gradient(to bottom right, #eff6ff, #e0e7ff);
+}
