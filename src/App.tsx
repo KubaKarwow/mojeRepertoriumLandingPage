@@ -58,7 +58,7 @@ function App() {
                             ręcznego przygotowywania powtarzalnych elementów. Pozwala to skupić się na właściwej
                             pracy tłumaczeniowej zamiast na czynnościach technicznych związanych z przygotowaniem dokumentów.
                         </p>
-                        <p className="text-lgtext-justify">
+                        <p className="text-lg text-justify">
                             Duży nacisk położono także na wygodę użytkowania.
                             Główny formularz aplikacji zawiera zestaw powiązanych
                             ze sobą pól oraz logikę, która pomaga wprowadzając dane ograniczyć
