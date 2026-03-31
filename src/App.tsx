@@ -19,16 +19,8 @@ function App() {
                         </h1>
                     </div>
                     <p className="text-2xl text-blue-700 mb-8">
-                        Niezastąpiany pomocnik tłumacza przysięgłego
+                        Niezastąpiany pomocnik tłumacza przysięgłego każdego języka
                     </p>
-
-                    <a
-                        href="https://github.com/KubaKarwow/mojeRepertoriumLandingPage/releases/download/v.1.0.0/Moje.Repertorium.Installer.exe"
-                        className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:cursor-pointer transition-all transform hover:scale-105 shadow-lg"
-                    >
-                        <Download size={20} />
-                        Pobierz dla Windows
-                    </a>
                 </header>
 
                 <section className="bg-white rounded-2xl shadow-sm p-12 mb-12 border border-blue-100">
@@ -36,13 +28,13 @@ function App() {
                         O aplikacji
                     </h2>
                     <div className="text-blue-900 leading-relaxed space-y-4">
-                        <p className="text-lg">
+                        <p className="text-lg text-justify">
                             Moje Repertorium to aplikacja desktopowa stworzona z myślą o tłumaczach przysięgłych,
                             którzy chcą w uporządkowany i wygodny sposób prowadzić swoje repertorium oraz zarządzać dokumentacją
                             związaną z wykonywanymi tłumaczeniami. Powstała z praktycznej potrzeby usprawnienia codziennej pracy
                              tak, aby wszystkie informacje, pliki i dokumenty znajdowały się w jednym spójnym systemie, zamiast być rozproszone w wielu folderach i plikach na dysku.
                         </p>
-                        <p className="text-lg">
+                        <p className="text-lg text-justify">
                             Głównym celem aplikacji jest uporządkowanie procesu prowadzenia repertorium
                             oraz ujednolicenie struktury przechowywania dokumentów. Program automatycznie
                             tworzy przejrzystą strukturę folderów dla każdego tłumaczenia, obejmującą zarówno
@@ -51,7 +43,7 @@ function App() {
                             na dysku oraz znacząco przyspiesza pracę przy większej liczbie realizowanych zleceń.
                             Jednocześnie struktura ta pozostawia użytkownikowi dużą swobodę w dostosowaniu jej do własnych preferencji i sposobu pracy.
                         </p>
-                        <p className="text-lg">
+                        <p className="text-lg text-justify">
                             Istotnym elementem aplikacji jest również sposób przechowywania danych.
                             Informacje o wpisach w repertorium zapisywane są w pliku Excel, który pozostaje
                             w pełni dostępny dla użytkownika. Dodatkowo program automatycznie utrzymuje
@@ -59,21 +51,21 @@ function App() {
                             utraty lub uszkodzenia głównego pliku repertorium. Dzięki temu użytkownik zachowuje
                             kontrolę nad swoimi danymi, jednocześnie korzystając z dodatkowego poziomu bezpieczeństwa.
                         </p>
-                        <p className="text-lg">
+                        <p className="text-lg text-justify">
                             Aplikacja umożliwia również generowanie własnych dokumentów w formacie Word,
                             w tym dokumentów zawierających podpis tłumacza. Automatyczne tworzenie takich
                             plików znacząco skraca czas przygotowania dokumentacji i eliminuje konieczność
                             ręcznego przygotowywania powtarzalnych elementów. Pozwala to skupić się na właściwej
                             pracy tłumaczeniowej zamiast na czynnościach technicznych związanych z przygotowaniem dokumentów.
                         </p>
-                        <p className="text-lg">
+                        <p className="text-lgtext-justify">
                             Duży nacisk położono także na wygodę użytkowania.
                             Główny formularz aplikacji zawiera zestaw powiązanych
                             ze sobą pól oraz logikę, która pomaga wprowadzając dane ograniczyć
                             liczbę ręcznych operacji i zmniejszyć ryzyko pomyłek.
                             Interfejs został zaprojektowany w taki sposób, aby codzienna praca z repertorium była możliwie szybka i intuicyjna.
                         </p>
-                        <p className="text-lg">
+                        <p className="text-lg text-justify">
                             Ważną cechą programu jest również pełna prywatność danych.
                             Aplikacja nie komunikuje się z internetem i wszystkie informacje
                             przechowywane są wyłącznie na komputerze użytkownika.
@@ -81,7 +73,7 @@ function App() {
                             i nie są przesyłane do żadnych zewnętrznych usług.
                             Szczegóły dotyczące działania aplikacji oraz sposobu przechowywania danych zostały dodatkowo omówione w materiałach wideo dostępnych poniżej.
                         </p>
-                        <p className="text-lg">
+                        <p className="text-lg text-justify">
                             Moje Repertorium powstało jako narzędzie praktyczne zaprojektowane tak, aby realnie ułatwiać codzienną pracę tłumacza przysięgłego.
                             Łączy prostotę obsługi z funkcjami, które pomagają zachować porządek w dokumentacji,
                             zwiększyć bezpieczeństwo danych oraz skrócić czas wykonywania powtarzalnych czynności administracyjnych.
@@ -155,6 +147,9 @@ function App() {
                     <h2 className="text-3xl font-bold text-white mb-4">
                         Gotowy do rozpoczęcia?
                     </h2>
+                    <p className="text-blue-100 mb-4 text-lg">
+                        Wersja darmowa - dostępna do 1 czerwca 2027
+                    </p>
                     <p className="text-blue-100 mb-8 text-lg">
                         Pobierz teraz i dołącz do naszej rosnącej społeczności
                     </p>
