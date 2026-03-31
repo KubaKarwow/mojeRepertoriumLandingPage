@@ -159,7 +159,7 @@ function App() {
                         className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 hover:cursor-pointer transition-all transform hover:scale-105 shadow-lg"
                         >
                         <Download size={20} />
-                        Pobierz teraz
+                        Pobierz teraz dla Windows
                     </a>
                         <button
                             onClick={() => setShowContactOverlay(true)}
